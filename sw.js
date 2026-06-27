@@ -1,19 +1,17 @@
-const CACHE_NAME = 'plages-cotentin-v2';
+const CACHE_NAME = 'plages-cotentin-v3';
 
-// Liste des fichiers à mettre en cache
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
   './manifest.json',
   './js/app.js',
   './js/moteur-calcul.js',
-  // On ajoute tous nos nouveaux fichiers d'icônes
   './favicon.ico',
   './favicon-16x16.png',
   './favicon-32x32.png',
   './apple-touch-icon.png',
   './android-chrome-192x192.png',
-  './android-chrome-512x512.jpg'
+  './android-chrome-512x512.png' // L'extension est corrigée ici !
 ];
 
 // 1. Événement d'INSTALLATION : On met les fichiers en cache
